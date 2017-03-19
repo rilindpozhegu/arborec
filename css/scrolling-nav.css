@@ -1,8 +1,17 @@
-/*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+/*====================================*/
+
+/*        -EMIRATES GRAPHIC-          */
+
+/*        emiratesgraphic.com         */
+
+/*====================================*/
+
+
+/*
+///////////////////////////////////////////////////
+My Edition
+///////////////////////////////////////////////////
+*/
 
 body {
     width: 100%;
@@ -14,6 +23,8 @@ html {
     height: 100%;
 }
 
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -21,16 +32,129 @@ html {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+    .navbar-fixed-top {
+        background-color: transparent;
+        border: none;  
+        padding-top: 35px;
+      }
+}
+.active_nav {
+  background-color: rgba(255, 255, 255, 0.19);
+  color: white;
+  transition: all ease-in-out 0.2s;
+  border: solid 1px white;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Montserrat-Bold';
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*Collapsed*/
 
-    .top-nav-collapse {
-        padding: 0;
-    }
+.top-nav-collapse {
+  background-color: #363F4C !important;
+  padding-top: 10px !important;
+  transition: ease-in-out all 0.3s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.top-nav-collapse img {
+  width: 130px !important;
+  transition: ease-in-out all 0.3s;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: pink;
+
+.navbar img {
+    width: 160px;
+  transition: ease-in-out all 0.3s;
+}
+
+.navbar-fixed-top {
+  background-color: transparent;
+  border: none;
+  padding-top: 35px;
+  transition: ease-in-out all 0.3s;
+}
+
+/*Ngjyra e linkave ne navigationbar*/
+.navbar-default .navbar-nav > li {
+  padding: 25px 0px 0px;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-family: 'Montserrat-Bold';
+  border: solid 1px transparent;
+  /*padding-top: 20px;*/
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: rgba(255, 255, 255, 0.19);
+  color: white;
+  transition: all ease-in-out 0.2s;
+  border: solid 1px transparent;
+}
+
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+    .navbar-header img {
+      float: right;
+      width: 100px;
+      margin-right: 35px;
+    }
+    .navbar-fixed-top {
+      background-color: #504f4f !important; 
+      text-align: center;
+    }
+    .navbar-toggle {
+      float: left;
+      margin-left: 35px;
+      margin-top: 0px;
+      border: none;
+      background-color: transparent !important;
+    }
+    .navbar-toggle {
+      background-color: transparent !important;
+      padding-top: 5px;
+      padding-bottom: 20px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: white;
+      width: 25px;
+    }
+    .top-nav-collapse .navbar-toggle {
+      padding-top: 25px;
+      padding-bottom: 20px;
+    }
+    .top-nav-collapse .navbar-header img {
+      width: 80px !important ;
+      transition: ease-in-out all 0.3s;
+      padding-top: 20px;
+    }
+    .navbar-default .navbar-nav > li > a {
+      font-size: 15px !important;
+    }
+  }
+
+  .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 400px;
 }

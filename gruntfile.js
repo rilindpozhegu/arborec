@@ -10,6 +10,7 @@ module.exports = function(grunt) {
 					'js/jquery.js',
 					'js/bootstrap.min.js', // Boostrap Script.min General,
 					'js/scrolling-nav.js', // Scrolling Nav Default Script,
+					
 
 					// Facts Section Number Counter Scripts/All
 					'js/waypoints.min.js',
@@ -17,31 +18,20 @@ module.exports = function(grunt) {
 					'js/number-c.js', //Time to count,
 					// --------------------------------------// 
 
+					// Animation.css Scripts after scroll
+					'js/wow.min.js',
+					'js/animate.js',
+					// --------------------------------// 
+					
 					// OWL Carousel 2.0 All.
 					'js/owl_time.js',
 					'js/owl.carousel.js',
 
 					// -------------------// 
 
-					// Animation.css Scripts after scroll
-					'js/wow.min.js',
-					'js/animate.js',
-					// --------------------------------// 
+					'js/smoothscroll.js', // Smooth Scroll Script + time to Scroll,
+					'js/active_property.js',
 
-					// Gallery Scripts New ONE
-					'js/gallery/add_gallery.js',
-					'js/gallery/lightgallery.min.js',
-					'js/gallery/lg-fullscreen.min.js',
-					'js/gallery/lg-thumbnail.min.js',
-					'js/gallery/lg-video.min.js',
-					'js/gallery/lg-autoplay.min.js',
-					'js/gallery/lg-zoom.min.js',
-					'js/gallery/lg-hash.min.js',
-					'js/gallery/lg-pager.min.js',
-					'js/gallery/jquery.mousewheel.min.js',
-					// ---------------------------------//
-
-					'js/smoothscroll.js' // Smooth Scroll Script + time to Scroll,
 
 					],
 

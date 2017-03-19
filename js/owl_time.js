@@ -6,7 +6,7 @@
                 nav: false,
                 loop: true,
                 autoplay: true,
-                autoplayTimeout: 5000,
+                autoplayTimeout: 6000,
                 responsive: {
                   0: {
                     items: 1
@@ -15,7 +15,7 @@
                     items: 1
                   },
                   1000: {
-                    items: 3
+                    items: 1
                   }
                 }
               })
@@ -31,7 +31,7 @@
                 loop: true,
                 margin: 10,
                 autoplay: true,
-                autoplayTimeout: 2000
+                autoplayTimeout: 2222000
               });
               $('.custom1').owlCarousel({
                 animateOut: 'fadeOutUp',
@@ -64,9 +64,9 @@
               owl.owlCarousel({
                 margin: 20,
                 nav: false,
-                loop: false,
-                autoplay: false,
-                autoplayTimeout: 7000,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
                 responsive: {
                   0: {
                     items: 1

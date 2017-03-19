@@ -1,0 +1,90 @@
+
+.header_section_why_arborec {
+	background-image: url('../img/background/cover_4-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}
+
+.first_section_why_arborec {
+	padding: 60px 10px;
+}
+
+.first_section_why_arborec h4 {
+	font-size: 35px;
+    color: #5D6A84;
+    font-family: 'Montserrat-Bold';
+}
+
+.first_section_why_arborec p {	
+    color: #5D6A84;
+}
+
+/* Panels in total Seven !*/
+.why_arborec_points {
+	padding: 60px 10px;
+	background-color: #F1F2F2;
+}
+.forthp_panel2 {	
+	background-color: white;
+	padding: 10px 20px;
+	margin: 10px 0px;
+	height: 220px;
+	border: solid 1px #e0dada;
+	border-radius: 7px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	transition: all ease-in-out 0.2s;
+}
+.forthp_panel2:hover {
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	transition: all ease-in-out 0.2s;	
+}
+.forthp_panel2 h1 {
+	color: #EDC231;
+    font-family: 'Montserrat-Bold';
+    font-size: 40px;
+}
+
+.forthp_panel2 p {
+	color: #999999;
+	font-size: 13px;
+}
+
+.forthp_panel2 img {
+	width: 70px;
+}
+/*Special Panels*/
+
+.forthp_panel21 {
+	background-image: url('../img/sm_bg/sm_1-01.png');
+}
+
+.forthp_panel22 {
+	background-image: url('../img/sm_bg/sm_2-01.png');
+}
+
+.forthp_panel23 {
+	background-image: url('../img/sm_bg/sm_3-01.png');
+}
+
+.forthp_panel24 {
+	background-image: url('../img/sm_bg/sm_4-01.png');
+}
+
+.forthp_panel25 {
+	background-image: url('../img/sm_bg/sm_5-01.png');
+}
+
+.forthp_panel26 {
+	background-image: url('../img/sm_bg/sm_6-01.png');
+}
+
+.forthp_panel27 {
+	background-image: url('../img/sm_bg/sm_7-01.png');
+	background-repeat: no-repeat;
+	height: 150px;
+	padding-top: 50px;
+} 

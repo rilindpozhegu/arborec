@@ -1,0 +1,81 @@
+.header_section_about {
+	background-image: url('../img/background/cover_2-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+
+}
+
+/*First Section About Page*/
+
+.first_section_about {
+	padding: 70px 10px;
+}
+
+.first_section_about h2 {
+	color: #363F4C;
+	font-family: 'Montserrat-Bold';
+	font-size: 35px;
+	margin-top: 0px;
+}
+
+.first_section_about p {
+	font-size: 13px;
+}
+
+/* Second Section On Homepage*/
+
+.second_section_about {
+	background-color: #2A2E3A;
+}
+
+.second_section_about a {
+	float: right;
+	margin-top: 20px;
+	text-decoration: none !important;
+	color: #00A4EF;
+	font-family: 'Montserrat-Bold';
+	padding-right: 20px;
+}
+
+
+.second_section_about a:hover {
+	color: #058cca;
+}
+
+.our_miss_pan_text {
+	color: white;
+	padding: 14% 10% 0px;
+}
+
+.our_miss_pan_text h5 {
+	font-family: 'Montserrat-Bold';
+	font-size: 25px;
+}
+
+
+/* Third Section About page */
+.third_section_about {
+	padding: 60px 10px;
+}
+
+.third_section_about h1 {
+    font-size: 35px;
+    color: #363F4C;
+    font-family: 'Montserrat-Bold';
+}
+
+.third_section_about hr {
+	display: block;
+    height: 2px;
+    border: 0;
+    border-top: 4px solid #363F4C;
+    padding-bottom: 20px;
+    margin: 0px 0px;
+    width: 10%;
+}
+
+}

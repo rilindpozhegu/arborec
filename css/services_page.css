@@ -1,0 +1,57 @@
+/*====================*/
+/*        HOME        */
+/*====================*/
+
+.header_section_services {
+	background-image: url('../img/background/cover_3-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}
+
+/* Second Section On Homepage*/
+
+.our_miss_pan_text_services {
+    color: white;
+    padding: 7% 10% 0px;	
+}
+
+.our_miss_pan_text_services hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 4px solid white;
+    padding-bottom: 20px;
+    margin: 0px 0px;
+    width: 20%;
+}
+
+.second_section_services_p {
+	background-color: #2A2E3A;
+}
+
+.second_section_services_p {
+	color: white;
+	/*padding: 1% 2% 0px;*/
+}
+
+.second_section_services_p h5 {
+	font-family: 'Montserrat-Bold';
+	font-size: 25px;
+	color: #058cca;
+}
+
+.second_section_services_p h4 {
+	font-family: 'Montserrat-Bold';
+	font-size: 25px;
+	color: white;
+}
+
+/*Testimonial Bg */
+
+.testimonial_services_page {
+	background-color: #F1F2F2;
+}

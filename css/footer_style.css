@@ -1,0 +1,18 @@
+.footer-section {
+	background-color: #363F4C;
+	color: white;
+	padding: 20px 0px 13px;
+	box-shadow: 0 49px 14px 56px rgba(0, 0, 0, 0.53), 0 -4px 52px rgba(0,0,0,0.23);
+}
+
+.copywrite-section {
+	text-align: left;
+}
+
+.socialmedia-section {
+	text-align: right;
+}
+
+.socialmedia-section i {
+	padding: 0px 20px;
+}

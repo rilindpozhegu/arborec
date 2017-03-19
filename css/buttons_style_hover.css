@@ -1,0 +1,41 @@
+/*======================*/
+/*        BUTTON        */
+/*======================*/
+
+
+.button_style_w {
+	color: white;
+	border: solid 1px white;
+	border-radius: 4px;
+	background-color: transparent;
+	font-family: 'Montserrat-Bold';
+	padding: 10px; 
+	width: 200px;
+	transition: all ease-in-out 0.3s;
+	margin-top: 20px;
+}
+
+.button_style_c {
+	color: #363F4C;
+	border: solid 1px #363F4C;
+	border-radius: 4px;
+	background-color: transparent;
+	font-family: 'Montserrat-Bold';
+	padding: 10px;
+	width: 200px;
+	transition: all ease-in-out 0.3s;
+	margin-top: 20px;
+}
+
+.button_style_c:hover {
+	background-color: #00A4EF;
+	transition: all ease-in-out 0.3s;
+	border: solid 1px #00A4EF;
+	color: white;
+}
+
+.button_style_w:hover{ 
+	background-color: #00A4EF;
+	transition: all ease-in-out 0.3s;
+	border: solid 1px #00A4EF;
+}

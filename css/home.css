@@ -1,0 +1,220 @@
+/*====================*/
+/*        HOME        */
+/*====================*/
+
+.header_section_home {
+	background-image: url('../img/background/cover_4-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}
+
+/*All pages Title*/
+
+.header_title_cover {	
+	padding: 16% 10px;
+}
+.header_title_cover h2 { 
+	font-size: 50px;
+	font-family: 'Montserrat-Bold';
+}
+
+.header_title_cover p {
+	color: white;
+	font-size: 15px;
+}
+
+/*First SectionHomepage*/
+
+.first_section_home {
+	padding: 60px 10px;
+	background-color: #F1F2F2;
+}
+
+.first_section_home h2 {
+	color: #363F4C;
+	font-family: 'Montserrat-Bold';
+	font-size: 35px;
+	margin-top: 0px;
+}
+
+.first_section_home p {
+	font-size: 13px;
+}
+
+
+
+/*Second Section Home*/
+.second_section_home {
+	padding: 60px 10px;
+}
+
+.second_section_home h2 {
+	color: #363F4C;
+	font-family: 'Montserrat-Bold';
+	font-size: 35px;
+	margin-top: 0px;	
+}
+
+.second_section_home hr {
+
+}
+
+
+/*Card Homepage*/
+
+.card_panel_home {
+	border-radius: 10px; 
+	border: solid 1px #ccc;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin: 30px 0px 20px;
+}
+
+.card_panel_home img {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.card_panel_home h2 {
+	color: #363F4C;
+	font-family: 'Montserrat-Bold';
+	font-size: 35px;
+	margin-top: 20px;	
+
+}
+
+.card_panel_home .col-md-7{
+	padding: 5% 10%;
+}
+
+.card_panel_home button {
+	border-radius: 50px;
+	background-color: #253A7F; 
+	color: white;
+	border: transparent;
+	height: 35px;
+	width: 35px;
+	transition: all 0.2s ease-in-out;
+}
+
+.card_panel_home button:hover {
+	background-color: transparent;
+	border: solid 1px #363F4C;
+	color: #363F4C;
+	transition: all 0.2s ease-in-out;
+}
+
+
+/*=====================================================*/
+/* 		Testimonial Section Home and 2 other pages 	   */
+/*=====================================================*/
+
+.testimonial_section_all {
+	background-image: url('../img/background/stat2-01.png');
+	padding: 60px 10px;
+	text-align: center;
+}
+
+.testimonial_section_all h1 {
+	color: white;
+	font-family: "Montserrat-Bold";
+	font-size: 35px;
+}
+
+.testimonial_section_all h1 span {
+	color: #00A4EF;
+	font-size: 40px;
+}
+
+.testimonial_section_all p {
+	color: white;
+	padding-top: 20px;
+}
+
+.owl-dots {
+	margin-top: 50px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00A4EF !important;
+    border-radius: 50px;
+    border: solid 1px #00A4EF;
+    padding: 3px;
+    box-shadow: 0px 0px 14px 2px #00a4ef;
+    border: solid 1px rgba(255, 255, 255, 0.53);
+    border-radius: 50px;
+}
+
+/* Testimonial Section What*/
+
+.testimonial_section_what {
+	padding: 60px 0px;
+	text-align: center !important;
+}
+
+.testimonial_section_what1 img {
+	padding: 0px !important;
+}
+.testimonial_section_what img {
+	padding: 10px 80px;
+}
+
+.testimonial_section_what h5{
+	font-size: 20px;
+	font-family: 'Montserrat-Bold';
+	color: #00A4EF;
+}
+
+.testimonial_section_what h4 {
+	color: #363F4C;
+    font-family: 'Montserrat-Bold';
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+/* News Section On homepage */
+
+.news_section_home {
+	background-image: url('../img/background/news_cover-01.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 60px 10px;
+}
+
+.news_section_home h5 {
+	color: white;
+	font-family: 'Montserrat-Bold';
+	font-size: 25px;
+}
+
+.news_section_home p {
+	color: white;
+	font-size: 17px;
+}
+
+.news_section_home input {
+	width: 100%;
+	border: solid 1px white;
+	border-radius: 4px;
+	background-color: transparent;
+	color: white;
+	height: 50px;
+	padding: 15px;
+}
+
+.news_section_home ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.news_section_home ::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.news_section_home :-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.news_section_home :-moz-placeholder { /* Firefox 18- */
+  color: white;
+}

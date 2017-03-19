@@ -1,0 +1,38 @@
+.get_in_touch_secton {
+	padding: 60px 10px;
+	text-align: center;
+}
+
+.get_in_touch_secton h5 {
+	font-size: 35px;
+	color: #363F4C;
+	text-align: center;
+	font-family: 'Montserrat-Bold';
+}
+
+.get_in_touch_secton p {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.get_in_touch_secton input {
+	width: 100%;
+	margin-top: 5px;
+	border: solid 1px #998E7A;
+	border-radius: 4px;
+	height: 40px;
+	color: #998E7A;
+	background-color: transparent;
+	padding: 10px;
+}
+
+.get_in_touch_secton textarea {
+	width: 100%;
+	margin-top: 5px;
+	border: solid 1px #998E7A;
+	border-radius: 4px;
+	color: #998E7A;
+	background-color: transparent;
+	padding: 10px;
+	resize: vertical;
+}

@@ -1,0 +1,41 @@
+.statsitics_section_all1 {
+	background-image: url('../img/background/stat1-01.png');
+	background-size: cover;
+	background-position: center;
+	padding: 60px 10px;
+}
+
+.counter_edit h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat-Bold';
+	font-size: 35px;
+}
+
+.counter_edit p {
+	color: white;
+	font-size: 17px;
+}
+
+.counter_edit .col-md-4 p {
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.8);
+}
+.counter_edit img {
+	width: 50%;
+}
+
+.counter_edit {
+	text-align: center;
+	color: white;
+}
+
+.counter_edit span {
+	font-size: 40px; 
+	font-family: 'Montserrat-Bold';
+}
+
+.border_add {
+   border-left: solid 2px rgba(255, 255, 255, 0.2);
+   border-right: solid 2px rgba(255, 255, 255, 0.2);
+}

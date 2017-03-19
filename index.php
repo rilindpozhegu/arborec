@@ -1,52 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <link rel="icon" href="img/favicon-01.png">
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" type="text/css" href="build/styles.css">
+    <title>Arborec</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="build/styles.css"> <!-- Resource style -->
+    
 </head>
+<body>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-
-<!-- NavigationBar -->
+<!-- Header all Pages -->    
     <?php include 'navigation_bar.php';?>
 
-<div class="container">
-        <div class="demo-gallery">
-            <ul id="lightgallery" class="list-unstyled row">
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/thumb-1.jpg">
-                    </a>
-                </li>
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/2-375.jpg 375, img/2-480.jpg 480, img/2.jpg 800" data-src="img/2-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/thumb-2.jpg">
-                    </a>
-                </li>
-                <li class="col-xs-6 col-sm-4 col-md-3" data-src="img/13-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/thumb-13.jpg">
-                    </a>
-                </li>
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                    <a href="">
-                        <img class="img-responsive" src="img/thumb-4.jpg">
-                    </a>
-                </li>
-            </ul>
+<!-- Cover Section -->
+
+<section class="header_section_home header_title_cover">
+    <div class="container">
+        <div class="row">
+            <h2  class="wow slideInRight">Welcome to Arbor</h2>
+            <p class=" wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and<br> scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into<br> electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of <br>Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software<br> like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="services_page.php"><button class="button_style_w wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s">Services</button></a>
         </div>
-</div>
+    </div>
+</section>
+
+<!-- First section Home Image and text+button -->
+
+<section class="first_section_home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/team/member1-01.png" class="img-responsive wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+                </div>
+                <div class="col-md-9">
+                    <h2>Our Mission</h2>
+                    <p>Arbor Education Consultants is firmly grounded in the belief that discovering  “good matches” between students and post-secondary institutions is the  primary purpose of the college admission process. Furthermore, it understands  the principle that the process requires close communication and cooperation among the three major “players”; student, parents and counselor. The process  unfolds most successfully when all parties involved approach their various roles  and responsibilities with the intended spirit; open-mindedness, intelligence, honesty, a sense of adventure and even a sense of humor.</p>
+                    <p>While the final outcome is important, it is on the process of self-discovery and  college-discovery that Arbor Education Consultants focuses. The moment of  college choice and admissions arrives when students are in the developmental process of late adolescence and emerging young adulthood. The selection of a college provides an important educational opportunity to develop skills and understandings that will serve that function as well as many of life’s major adult challenges.</p>
+                    <a href="services_page.php"><button class="button_style_c wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Services</button></a>
+                </div>
+            </div>
+        </div>
+</section>
+
+<!-- Second Section Homepage -->
+
+<section class="second_section_home">
+    <div class="container">
+        <div class="row">
+            <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">What We Do</h2>
+            <hr>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        
+        <?php include 'card_panel_include.php';?>
+
+        <div class="col-md-12">
+            <button class="button_style_c">View More Information</button>
+        </div>
+    </div>
+</section>
+
+
+
+<!--  Third Section on Homepage -->
+
+    <?php include 'testimonial_why_us.php';?>
+
+<!-- Testimonial Section What peoples says :P  -->
+    <?php include 'testimonial_section_all.php';?>
+
+
+
+<!-- News Section Homepage -->
+<section class="news_section_home">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-6 col-md-6 col-xs-12">
+                <h5>Sign Up<br>To Our Newsletter</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+                <input type="" name="" placeholder="Enter Your Email">
+                <button class="button_style_w">Submit</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Get in touch Section on all pages -->
+
+    <?php include 'get_in_touch_section.php';?>
 
 <!-- Footer all Pages -->    
     <?php include 'footer_all.php';?>
@@ -54,7 +102,9 @@
 <!-- jQuery -->
 
     <script type="text/javascript" src="build/scripts.js"></script>
-
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
