@@ -127,7 +127,6 @@ input:focus {
     width: 10%;
 }
 
-}
 @charset "UTF-8";
 
 /*!
@@ -3466,6 +3465,21 @@ Copyright (c) 2015 Daniel Eden
 	transition: all ease-in-out 0.3s;
 	border: solid 1px #00A4EF;
 }
+/*====================*/
+/*    testimonial     */
+/*====================*/
+
+.header_section_contact_p {
+	background-image: url('../img/background/cover_6-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}
+
+
 .contact_input_section {
 	padding: 60px 10px;
 }
@@ -3632,9 +3646,14 @@ Copyright (c) 2015 Daniel Eden
 	font-size: 35px;
 	margin-top: 0px;	
 }
-
 .second_section_home hr {
-
+	    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 4px solid #363F4C;
+    padding-bottom: 20px;
+    margin: 0px 0px;
+    width: 10%;
 }
 
 
@@ -3845,8 +3864,8 @@ html {
       }
 }
 .active_nav {
-  background-color: rgba(255, 255, 255, 0.19);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.39);
+  color: #363F4C !important;
   transition: all ease-in-out 0.2s;
   border: solid 1px white;
 }
@@ -3924,8 +3943,10 @@ Responsive Part
     }
     .navbar-header img {
       float: right;
-      width: 100px;
       margin-right: 35px;
+      width: 80px !important ;
+      transition: ease-in-out all 0.3s;
+      margin-top: -7px;
     }
     .navbar-fixed-top {
       background-color: #504f4f !important; 
@@ -4062,6 +4083,20 @@ Responsive Part
    border-left: solid 2px rgba(255, 255, 255, 0.2);
    border-right: solid 2px rgba(255, 255, 255, 0.2);
 }
+/*====================*/
+/*    testimonial     */
+/*====================*/
+
+.header_section_testimonial_p {
+	background-image: url('../img/background/cover_5.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}
+
 
 .header_section_why_arborec {
 	background-image: url('../img/background/cover_4-01.png');
@@ -4152,3 +4187,69 @@ Responsive Part
 	height: 150px;
 	padding-top: 50px;
 } 
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+
+    .header_title_cover {
+	    padding: 35% 5px;
+	}
+	.header_title_cover h2 {
+	    font-size: 35px;
+	    font-family: 'Montserrat-Bold';
+	}
+	.header_title_cover p {
+	    color: white;
+	    font-size: 14px;
+	}
+	.first_section_home h2 {
+	    color: #363F4C;
+	    font-family: 'Montserrat-Bold';
+	    font-size: 35px;
+	    margin-top: 15px;
+	}
+	.card_panel_home .col-md-7 {
+	    padding: 60% 10% 7%;
+	    margin-top: 20px !important;
+	}
+	.socialmedia-section {
+		text-align: center;
+	}
+	.navbar-default .navbar-nav > li {
+	    padding: 6px 0px 0px;
+	}
+	.our_miss_pan_text {
+	    color: white;
+	    padding: 14% 0% 10px;
+	}
+	.second_section_about a {
+	    float: left;
+	    margin-top: 20px;
+	    text-decoration: none !important;
+	    color: #00A4EF;
+	    font-family: 'Montserrat-Bold';
+	    padding-right: 20px;
+	}
+	.our_miss_pan_text_services {
+	    color: white;
+	    padding: 7% 0% 10px;
+	}
+	.contact_infos {
+		text-align: center;
+	}
+}

@@ -2,7 +2,7 @@
     <div class="container">
             <div class="row counter_edit">
               <h1  class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Statistics</h1>
-              <p style="padding-bottom: 40px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
+              <p style="padding-bottom: 40px;"  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled </p>
                 <div class="col-md-10 col-md-offset-1">
                     <div class="col-md-4 col-xs-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                         <img src="img/icons/icon1-01.svg"><br>

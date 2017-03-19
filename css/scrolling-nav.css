@@ -39,8 +39,8 @@ html {
       }
 }
 .active_nav {
-  background-color: rgba(255, 255, 255, 0.19);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.39);
+  color: #363F4C !important;
   transition: all ease-in-out 0.2s;
   border: solid 1px white;
 }
@@ -118,8 +118,10 @@ Responsive Part
     }
     .navbar-header img {
       float: right;
-      width: 100px;
       margin-right: 35px;
+      width: 80px !important ;
+      transition: ease-in-out all 0.3s;
+      margin-top: -7px;
     }
     .navbar-fixed-top {
       background-color: #504f4f !important; 

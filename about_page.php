@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <h2 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">About Us</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and<br> scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into<br> electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of <br>Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software<br> like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p  class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and<br> scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into<br> electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of <br>Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software<br> like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <a href="services_page.php"><button class="button_style_w wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Services</button></a>
         </div>
     </div>
@@ -39,7 +39,7 @@
                     <img src="img/team/member1-01.png" class="img-responsive">
                 </div>
                 <div class="col-md-9">
-                    <h2>About Us</h2>
+                    <h2  class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".1s">About Us</h2>
                     <p>Arbor Education Consultants is firmly grounded in the belief that discovering  “good matches” between students and post-secondary institutions is the  primary purpose of the college admission process. Furthermore, it understands  the principle that the process requires close communication and cooperation among the three major “players”; student, parents and counselor. The process  unfolds most successfully when all parties involved approach their various roles  and responsibilities with the intended spirit; open-mindedness, intelligence, honesty, a sense of adventure and even a sense of humor.</p>
                     <p>While the final outcome is important, it is on the process of self-discovery and  college-discovery that Arbor Education Consultants focuses. The moment of  college choice and admissions arrives when students are in the developmental process of late adolescence and emerging young adulthood. The selection of a college provides an important educational opportunity to develop skills and understandings that will serve that function as well as many of life’s major adult challenges.</p>
                     <a href="services_page.php"><button class="button_style_c wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Services</button></a>
@@ -58,11 +58,11 @@
             </div>
             <div class="col-md-6 second_second_pan">
             <div class="col-md-12 ">
-                <a href="#">OUR VISSION <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <a href="#"  class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">OUR VISSION <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
                 <div class="our_miss_pan_text">
-                    <h5>Our Mission</h5>
-                    <p>Arbor Education Consultants is firmly grounded in the belief that discovering 
+                    <h5 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">Our Mission</h5>
+                    <p class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Arbor Education Consultants is firmly grounded in the belief that discovering 
                     “good matches” between students and post-secondary institutions is the primary purpose of the college admission process. Furthermore, it erstands the principle that the process requires close communication and cooperation among the three major “players”; student, parents and counselor. The process unfolds most successfully when all parties involved approach their various roles and responsibilities with the intended spirit; ndedness, intelligence, honesty, a sense of adventure and even a sense of humor.</p>
                 </div>
             </div>

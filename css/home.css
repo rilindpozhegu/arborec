@@ -58,9 +58,14 @@
 	font-size: 35px;
 	margin-top: 0px;	
 }
-
 .second_section_home hr {
-
+	    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 4px solid #363F4C;
+    padding-bottom: 20px;
+    margin: 0px 0px;
+    width: 10%;
 }
 
 

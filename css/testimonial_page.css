@@ -1,0 +1,13 @@
+/*====================*/
+/*    testimonial     */
+/*====================*/
+
+.header_section_testimonial_p {
+	background-image: url('../img/background/cover_5.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}

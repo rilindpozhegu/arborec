@@ -20,11 +20,11 @@
 
 <!-- Cover Section -->
 
-<section class="header_section_why_arborec header_title_cover">
+<section class="header_section_contact_p header_title_cover">
     <div class="container">
         <div class="row">
             <h2 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">College Admissions</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and<br> scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into<br> electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of <br>Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software<br> like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p   class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been<br> the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and<br> scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into<br> electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of <br>Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software<br> like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <a href="services_page.php"><button class="button_style_w wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Services</button></a>
         </div>
     </div>
@@ -62,10 +62,10 @@
             </div>
         </div>
         <div class="col-md-4 contact_infos">
-            <p>Alexandre Tabet</p>
-            <p>Tel: +971 4 3481405</p>
-            <p>Mob: +971 50 6124303</p>
-            <p>Alexandre Tabet</p>
+            <p  class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".1s">Alexandre Tabet</p>
+            <p  class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".2s">Tel: +971 4 3481405</p>
+            <p  class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Mob: +971 50 6124303</p>
+            <p  class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">Alexandre Tabet</p>
             <p>
                 <a href="#"><i class="fa fa-facebook wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-twitter wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s" aria-hidden="true" aria-hidden="true"></i></a>

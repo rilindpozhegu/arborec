@@ -1,3 +1,18 @@
+/*====================*/
+/*    testimonial     */
+/*====================*/
+
+.header_section_contact_p {
+	background-image: url('../img/background/cover_6-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}
+
+
 .contact_input_section {
 	padding: 60px 10px;
 }

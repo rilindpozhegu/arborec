@@ -1,0 +1,66 @@
+/*
+///////////////////////////////////////////////////
+Responsive Part 
+///////////////////////////////////////////////////
+*/
+
+@media only screen and (min-width: 844px) {
+    .desktop-d-n {
+        display: none;
+    }
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .mobile-d-n {
+        display: none;
+    }
+
+    .header_title_cover {
+	    padding: 35% 5px;
+	}
+	.header_title_cover h2 {
+	    font-size: 35px;
+	    font-family: 'Montserrat-Bold';
+	}
+	.header_title_cover p {
+	    color: white;
+	    font-size: 14px;
+	}
+	.first_section_home h2 {
+	    color: #363F4C;
+	    font-family: 'Montserrat-Bold';
+	    font-size: 35px;
+	    margin-top: 15px;
+	}
+	.card_panel_home .col-md-7 {
+	    padding: 60% 10% 7%;
+	    margin-top: 20px !important;
+	}
+	.socialmedia-section {
+		text-align: center;
+	}
+	.navbar-default .navbar-nav > li {
+	    padding: 6px 0px 0px;
+	}
+	.our_miss_pan_text {
+	    color: white;
+	    padding: 14% 0% 10px;
+	}
+	.second_section_about a {
+	    float: left;
+	    margin-top: 20px;
+	    text-decoration: none !important;
+	    color: #00A4EF;
+	    font-family: 'Montserrat-Bold';
+	    padding-right: 20px;
+	}
+	.our_miss_pan_text_services {
+	    color: white;
+	    padding: 7% 0% 10px;
+	}
+	.contact_infos {
+		text-align: center;
+	}
+}
