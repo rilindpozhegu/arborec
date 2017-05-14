@@ -3529,6 +3529,19 @@ Copyright (c) 2015 Daniel Eden
 	padding-left: 10px;
 	padding-top: 10px;
 }
+
+
+
+/*Contact Page*/
+
+/*.map_section_contact {
+	padding-top: 7.5%;
+	background-color: #676464;
+}*/
+#map {
+	height: 400px;
+	width: 100%;
+}
 .footer-section {
 	background-color: #363F4C;
 	color: white;
@@ -3606,7 +3619,7 @@ Copyright (c) 2015 Daniel Eden
 	padding: 16% 10px;
 }
 .header_title_cover h2 { 
-	font-size: 50px;
+	font-size: 65px;
 	font-family: 'Montserrat-Bold';
 }
 
@@ -3633,7 +3646,9 @@ Copyright (c) 2015 Daniel Eden
 	font-size: 13px;
 }
 
-
+.first_section_home img {
+	width: 100%;
+}
 
 /*Second Section Home*/
 .second_section_home {
@@ -3863,12 +3878,14 @@ html {
         padding-top: 35px;
       }
 }
+
 .active_nav {
-  background-color: rgba(255, 255, 255, 0.39);
-  color: #363F4C !important;
+  color: white !important;
   transition: all ease-in-out 0.2s;
-  border: solid 1px white;
+  border-top: solid 2px #058cca !important;
+  background-color: rgba(95, 84, 84, 0.10);;
 }
+
 .navbar-default .navbar-nav > li > a {
     color: white;
     font-family: 'Montserrat-Bold';
@@ -3881,7 +3898,7 @@ html {
   background-color: #363F4C !important;
   padding-top: 10px !important;
   transition: ease-in-out all 0.3s;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.33);
 }
 
 .top-nav-collapse img {
@@ -3912,15 +3929,15 @@ html {
 .navbar-default .navbar-nav > li > a {
   color: white;
   font-family: 'Montserrat-Bold';
-  border: solid 1px transparent;
+  border-top: solid 2px transparent;
   /*padding-top: 20px;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: rgba(255, 255, 255, 0.19);
+  background-color: rgba(95, 84, 84, 0.10);
   color: white;
   transition: all ease-in-out 0.2s;
-  border: solid 1px transparent;
+  border-top: solid 2px white !important;
 }
 
 /*

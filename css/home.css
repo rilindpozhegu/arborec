@@ -18,7 +18,7 @@
 	padding: 16% 10px;
 }
 .header_title_cover h2 { 
-	font-size: 50px;
+	font-size: 65px;
 	font-family: 'Montserrat-Bold';
 }
 
@@ -45,7 +45,9 @@
 	font-size: 13px;
 }
 
-
+.first_section_home img {
+	width: 100%;
+}
 
 /*Second Section Home*/
 .second_section_home {

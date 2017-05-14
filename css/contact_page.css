@@ -62,3 +62,16 @@
 	padding-left: 10px;
 	padding-top: 10px;
 }
+
+
+
+/*Contact Page*/
+
+/*.map_section_contact {
+	padding-top: 7.5%;
+	background-color: #676464;
+}*/
+#map {
+	height: 400px;
+	width: 100%;
+}

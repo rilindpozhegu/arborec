@@ -4,7 +4,7 @@
             </div>
             <div class="col-md-7">
                 <h2>College Admissions</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
                 <button class="circle_panel_btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
             </div>
         </div>

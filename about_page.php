@@ -58,7 +58,7 @@
             </div>
             <div class="col-md-6 second_second_pan">
             <div class="col-md-12 ">
-                <a href="#"  class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">OUR VISSION <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                <a href="#"  class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">OUR MISSION <i class="fa fa-angle-right" aria-hidden="true"></i></a>
             </div>
                 <div class="our_miss_pan_text">
                     <h5 class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">Our Mission</h5>

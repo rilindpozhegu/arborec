@@ -36,13 +36,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="img/team/member1-01.png" class="img-responsive wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+                    <img src="img/team/Alex Tabet.png" class="img-responsive wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
                 </div>
                 <div class="col-md-9">
                     <h2 class=" wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">Our Mission</h2>
                     <p class=" wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">Arbor Education Consultants is firmly grounded in the belief that discovering  “good matches” between students and post-secondary institutions is the  primary purpose of the college admission process. Furthermore, it understands  the principle that the process requires close communication and cooperation among the three major “players”; student, parents and counselor. The process  unfolds most successfully when all parties involved approach their various roles  and responsibilities with the intended spirit; open-mindedness, intelligence, honesty, a sense of adventure and even a sense of humor.</p>
                     <p class=" wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">While the final outcome is important, it is on the process of self-discovery and  college-discovery that Arbor Education Consultants focuses. The moment of  college choice and admissions arrives when students are in the developmental process of late adolescence and emerging young adulthood. The selection of a college provides an important educational opportunity to develop skills and understandings that will serve that function as well as many of life’s major adult challenges.</p>
-                    <a href="services_page.php"><button class="button_style_c wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Services</button></a>
+                    <a href="about_page.php"><button class="button_style_c wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">About Us</button></a>
                 </div>
             </div>
         </div>
