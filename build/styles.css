@@ -3546,7 +3546,7 @@ Copyright (c) 2015 Daniel Eden
 	background-color: #363F4C;
 	color: white;
 	padding: 20px 0px 13px;
-	box-shadow: 0 49px 14px 56px rgba(0, 0, 0, 0.53), 0 -4px 52px rgba(0,0,0,0.23);
+	/*box-shadow: 0 49px 14px 56px rgba(0, 0, 0, 0.53), 0 -4px 52px rgba(0,0,0,0.23);*/
 }
 
 .copywrite-section {
@@ -4058,6 +4058,109 @@ Responsive Part
 
 .testimonial_services_page {
 	background-color: #F1F2F2;
+}
+
+.header_section_statistics {
+	background-image: url('../img/background/statistics_bg-01.png');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color: white;
+}
+
+
+.statistics_section_bg {
+	background-color: #2A2E3A;
+	padding: 5% 10px;
+}
+#chart_one {
+	color: white !important;
+	border-radius: 15px;
+	padding: 25px 10px;
+	border: solid 1px rgba(255, 255, 255, 0.58);
+}
+#chart_two {
+	color: white !important;
+	border-radius: 15px;
+	padding: 25px 10px;
+	border: solid 1px rgba(255, 255, 255, 0.58);
+}
+#chart_three {
+	color: white !important;
+	border-radius: 15px;
+	padding: 25px 10px;
+	border: solid 1px rgba(255, 255, 255, 0.58);
+}
+.highcharts-background {
+	background-color: transparent !important;
+	fill: transparent !important;
+	border: solid 1px white !important;
+}
+.highcharts-title {
+	color: white !important;
+	fill: white !important;
+	font-family: 'Montserrat-Bold';
+}
+
+.highcharts-legend-item text{
+	width: 100% !important;
+	color: white !important;
+	fill: white !important;
+}
+
+.highcharts-credits {
+	display: none !important;
+}
+
+/*Third Section on the Statistic page!*/
+
+.panels_section_statistics_p {
+	padding: 5% 10px 1%;
+}
+
+.panels_section_statistics_p h1 {
+	font-family: 'Montserrat-Light';
+	color: #2A2E3A;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+.stats_small_panel_sh {
+	/*border: solid 1px #2A2E3A;*/
+	border-radius: 20px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.14), 0 6px 6px rgba(0,0,0,0.23);
+	padding: 20px;
+	transition: all ease 0.3s;
+	margin: 30px 0px;
+}
+
+.stats_small_panel_sh:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.34), 0 6px 6px rgba(0,0,0,0.33);
+	transition: all ease 0.3s;
+}
+
+.small_panel_title {
+	margin-bottom: 20px;
+}
+
+.stats_small_panel_sh img {
+	width: 60px;
+	float: right;
+}
+.stats_small_panel_sh h2 {
+	font-family: 'Montserrat-Bold';
+	color: #00A4EF;
+	font-size: 20px;
+}
+
+.stats_small_panel_sh p {
+	color: #5D6A84;
+	font-size: 14px;
+	font-family: 'Montserrat-Light';
+	margin-bottom: 2px;
 }
 .statsitics_section_all1 {
 	background-image: url('../img/background/stat1-01.png');

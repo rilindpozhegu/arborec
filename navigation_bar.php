@@ -29,7 +29,10 @@
                         </li>
                         <li class=" sliding-middle-out">
                             <a class="#" href="why_arborec_page.php">WHY ARBOREC</a>
-                        </li>                            
+                        </li>                 
+                        <li class=" sliding-middle-out">
+                            <a class="#" href="statistics.php">STATISTICS</a>
+                        </li>                          
                         <li class=" sliding-middle-out">
                             <a class="#" href="testimonial_page.php">TESTIMONIAL</a>
                         </li>    
